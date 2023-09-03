@@ -6,6 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-   hello
+   <!-- if you need use any text for php then -->
+   <?php echo "hello world"; ?>
+   <br>
+   <!-- echo is the way to use the any type of text to show! -->
+   <!-- php is not case sensitive so! -->
+   <?php Echo "hello World"; ?>
+   <br>
+   <?php eCho "hello my earth"; ?>
+   <br>
+   <!-- thats why php is not case sensitive -->
+   <!-- if you wants to use variable then you need to use Doller sign ($) before the variablename = "" -->
+   <?php 
+   $food = "pizza";
+   $Food = "burger";
+   echo $food; echo $Food;
+   ?>
+   <!-- above the variable are case sensitive so each word important -->
+   <?php
+   akashsarker // snakecase
+   akashSarker // camelcase
+   akash_sarker // underlinecase
+echo "this is the corretway to use the name of any variable to which formet you wants to use"
+   ?>
 </body>
 </html>
