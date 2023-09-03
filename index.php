@@ -37,6 +37,7 @@ echo "this is the corretway to use the name of any variable to which formet you 
    thease are the multiple line comment
    */
   // this is single line comment
+  echo "you can use # to use comment but you should not use # to any other languages"
    ?>
 </body>
 </html>
