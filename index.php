@@ -6,26 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-<!-- how to use variable in php -->
-<!-- always use dollar sign to use variable like: -->
-<!-- $variable -->
-<!-- this is an empty variable -->
-<!-- the name should be alphaNeumerik -->
-<!-- alphaNeumerik is Abc0-9  -->
-<?php $hello = "world";
-echo $hello;
-?>
+<!-- when we wants to show any output then use on Php are -->
+<?php
+echo "hello world"; // in a display
+echo "<br>" ;
+print "hello earth"; // in a display
 
-<!-- you should never use the number for the first variable word number like -->
-<!-- $9age -->
-<!-- but you can use $age9 -->
-<?php 
-$name = "akash";
-echo "my name is" . $name;
-// always use semicolon [;] after finish anything
-?> 
-<!-- the dot or ( . ) is use for concatanation -->
-<!-- concatanation is used for add multiple strings in a complete sentence -->
+$food = print('Cocacola');
+
+echo $food;
+?>
 
 
 </body>
