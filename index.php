@@ -6,38 +6,27 @@
     <title>Document</title>
 </head>
 <body>
-   <!-- if you need use any text for php then -->
-   <?php echo "hello world"; ?>
-   <br>
-   <!-- echo is the way to use the any type of text to show! -->
-   <!-- php is not case sensitive so! -->
-   <?php Echo "hello World"; ?>
-   <br>
-   <?php eCho "hello my earth"; ?>
-   <br>
-   <!-- thats why php is not case sensitive -->
-   <!-- if you wants to use variable then you need to use Doller sign ($) before the variablename = "" -->
-   <?php 
-   $food = "pizza";
-   $Food = "burger";
-   echo $food; echo $Food;
-   ?>
-   <!-- above the variable are case sensitive so each word important -->
-   <?php
-   akashsarker // snakecase
-   akashSarker // camelcase
-   akash_sarker // underlinecase
-echo "this is the corretway to use the name of any variable to which formet you wants to use"
-   ?>
+<!-- how to use variable in php -->
+<!-- always use dollar sign to use variable like: -->
+<!-- $variable -->
+<!-- this is an empty variable -->
+<!-- the name should be alphaNeumerik -->
+<!-- alphaNeumerik is Abc0-9  -->
+<?php $hello = "world";
+echo $hello;
+?>
 
-   <?php 
-   /* 
-   akash sarker
-   akash sarker
-   thease are the multiple line comment
-   */
-  // this is single line comment
-  echo "you can use # to use comment but you should not use # to any other languages"
-   ?>
+<!-- you should never use the number for the first variable word number like -->
+<!-- $9age -->
+<!-- but you can use $age9 -->
+<?php 
+$name = "akash";
+echo "my name is" . $name;
+// always use semicolon [;] after finish anything
+?> 
+<!-- the dot or ( . ) is use for concatanation -->
+<!-- concatanation is used for add multiple strings in a complete sentence -->
+
+
 </body>
 </html>
