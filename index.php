@@ -29,5 +29,14 @@
    akash_sarker // underlinecase
 echo "this is the corretway to use the name of any variable to which formet you wants to use"
    ?>
+
+   <?php 
+   /* 
+   akash sarker
+   akash sarker
+   thease are the multiple line comment
+   */
+  // this is single line comment
+   ?>
 </body>
 </html>
