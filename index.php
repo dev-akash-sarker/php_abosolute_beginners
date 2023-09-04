@@ -6,44 +6,34 @@
     <title>Document</title>
 </head>
 <body>
+
 <?php 
-// = is assainment oprator
+// if else true of false er upor othoba chota ba boror upore kaj kore
+$x = 5;
+if($x > 50) {
+    echo "i love you";
+} else {
+    echo "i hate you";
+}
 
-// PHP Arithmetic Operators
-// +	Addition	$x + $y	Sum of $x and $y	
-// -	Subtraction	$x - $y	Difference of $x and $y	
-// *	Multiplication	$x * $y	Product of $x and $y	
-// /	Division	$x / $y	Quotient of $x and $y	
-// %	Modulus	$x % $y	Remainder of $x divided by $y	
-// **	Exponentiation	$x ** $y
+echo "<br>";
 
-$a = 15;
-$b = 10;
-echo($a % $b);
+switch('green') {
+    case 'red':
+        echo 'apple is red';
+        break;
+    case 'green':
+        echo 'mango is green';
+        break;
+    default :
+    echo 'i love all friut';
+  
+}
+
 
 ?>
 
-<?php 
-$x = 1;
-$y = 2;
-$x += $y ; // $x = $x + $y
-$x -= $y ; // $x = $x - $y
-$x *= $y ; // $x = $x * $y
-$x /= $y ; // $x = $x / $y
-?>
 
-<?php 
-$x = 1;
-$y = 2;
-var_dump($x == $y); // double equal
-var_dump($x === $y); // identical equal
-var_dump($x != $y); // not equal
-var_dump($x !== $y); // identical not equal
-var_dump($x < $y); // x er theke y boro
-var_dump($x > $y); // y er theke x boro
-var_dump($x <= $y); // boro ba soman kina
-var_dump($x >= $y); // choto ba shoman ki na
-?>
 <body>
 </body>
 </html>
