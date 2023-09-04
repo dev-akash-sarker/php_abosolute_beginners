@@ -7,35 +7,31 @@
 </head>
 <body>
 
-
 <?php 
-echo "i am a good student";
-// single quote or double quote er vitor ja thake! sob e string
-// jodi string er length ber korty hoy taholy
+$x = 5; // integer
+$y = 10.32; // float or doshomik
 echo "<br>";
-echo strlen("i eat mangoes");
-// if you see the output then it will be 13
-?>
-
-<?php
-// word er count ber korar jonno
+var_dump($x); // integer
 echo "<br>";
-echo str_word_count("i am a soldier and i will fight for country");
+var_dump($y); // float
 ?>
 
 <?php 
-// jodi kono string ulto korte hoy or reverse korty hole
+echo (pi()); // you will get PI number
 echo "<br>";
-echo strrev("hello world");
-// jodi kono string er position ber korty hole
+echo (min(100,15,30,15,40));
 echo "<br>";
-echo strpos("i love cat", "love");
-?>
-
-<?php
-// kono word replace korty holy
+echo (max(50,70,80,90,100));
 echo "<br>";
-echo str_replace("pizza", "burger", "i love to eat pizza");
+echo (abs(-10)); // always return positive
+echo "<br>";
+echo (sqrt(16)); // output will be 4
+echo "<br>";
+// flout ke jodi purno number eh convert korty hoy taholu
+echo (round(35.254545));
+echo "<br>";
+// random number er jonno
+echo (rand(1, 6));
 ?>
 
 
