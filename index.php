@@ -8,12 +8,14 @@
 <body>
 
 <?php 
-
-function test_name($name, $age){
-    echo "My name is: $name and his age is: $age <br>";
-}
-
-test_name("akash", 30);
+date_default_timezone_set("Asia/Dhaka");
+echo "today is " .date("y") . " year <br>";
+echo "today is " .date("m") . " month <br>";
+echo "today is " .date("d") . " date <br>";
+echo "today is " .date("y/m/d") . " full date <br>";
+echo "today is " .date("h") . " hour <br>";
+echo "today is " .date("h:i") . " hour with minute <br>";
+echo "today is " .date("h:i:sa") . " full time with minute <br>";
 
 ?>
 
