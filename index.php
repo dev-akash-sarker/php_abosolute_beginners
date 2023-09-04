@@ -6,25 +6,38 @@
     <title>Document</title>
 </head>
 <body>
-<?php 
-class Phone {
-    var $model;
-    function phoneModel ($number) {
-        global $model;
-        $model = $number;
-        echo "This is $model <br>"; 
-    }
-}
 
-$apple = new Phone;
-$apple-> phoneModel('iphone 16');
-$samsung = new Phone;
-$samsung -> phoneModel('samsung note 12');
-// ekhane object holo class
-// upore jemn Phone holoe ekti object
+
+<?php 
+echo "i am a good student";
+// single quote or double quote er vitor ja thake! sob e string
+// jodi string er length ber korty hoy taholy
+echo "<br>";
+echo strlen("i eat mangoes");
+// if you see the output then it will be 13
 ?>
-<?php ?>
-<?php ?>
+
+<?php
+// word er count ber korar jonno
+echo "<br>";
+echo str_word_count("i am a soldier and i will fight for country");
+?>
+
+<?php 
+// jodi kono string ulto korte hoy or reverse korty hole
+echo "<br>";
+echo strrev("hello world");
+// jodi kono string er position ber korty hole
+echo "<br>";
+echo strpos("i love cat", "love");
+?>
+
+<?php
+// kono word replace korty holy
+echo "<br>";
+echo str_replace("pizza", "burger", "i love to eat pizza");
+?>
+
 
 <body>
 </body>
