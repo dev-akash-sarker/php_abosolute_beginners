@@ -6,71 +6,43 @@
     <title>Document</title>
 </head>
 <body>
+<?php 
+// = is assainment oprator
 
-<?php
-$variable = 10;
-echo $variable;
-echo "<br>";
-$variable = 20;
-echo "<br>";
-echo $variable;
-echo "<br>";
-// as you see $ common variable can be changed without any error but
-define('a', 15);
-echo ""; // this will work cz you can never change there output
-echo "<br>";
-define('a', 20);
-echo a; // here comes error
-// constant fruit already defined so you can not change the output
-// you can only read!
-// if you comment any of the folloing const fruit the error will be gone
+// PHP Arithmetic Operators
+// +	Addition	$x + $y	Sum of $x and $y	
+// -	Subtraction	$x - $y	Difference of $x and $y	
+// *	Multiplication	$x * $y	Product of $x and $y	
+// /	Division	$x / $y	Quotient of $x and $y	
+// %	Modulus	$x % $y	Remainder of $x divided by $y	
+// **	Exponentiation	$x ** $y
+
+$a = 15;
+$b = 10;
+echo($a % $b);
+
 ?>
 
 <?php 
-echo "<br>";
-//array
-define('cars', [
-    'BMW', 'Toyota', 'Ferari'
-]);
-
-echo (cars[0]);
-?>
-
-<!-- $variables are not global but constant variables are global -->
-
-<?php 
-$name = "akash";
-
-function functionName(){
-    echo($name);
-}
-
-functionName(); // Undefined variable $name
-// cz $$name is not gloabl !its only works in local
+$x = 1;
+$y = 2;
+$x += $y ; // $x = $x + $y
+$x -= $y ; // $x = $x - $y
+$x *= $y ; // $x = $x * $y
+$x /= $y ; // $x = $x / $y
 ?>
 
 <?php 
-
-function functionNameTwo(){
-    $name = "akash";
-    echo($name);
-}
-
-functionNameTwo(); // now the function will give us the output
-//not $name is local variable so it will work.
-?>
-
-<br>
-<?php 
-define('age', 10);
-
-function ageNumber(){
-    echo(age);
-}
-
-ageNumber(); // age is a constant variable and global variable 
-// so it will work without any issues
-
+$x = 1;
+$y = 2;
+var_dump($x == $y); // double equal
+var_dump($x === $y); // identical equal
+var_dump($x != $y); // not equal
+var_dump($x !== $y); // identical not equal
+var_dump($x < $y); // x er theke y boro
+var_dump($x > $y); // y er theke x boro
+var_dump($x <= $y); // boro ba soman kina
+var_dump($x >= $y); // choto ba shoman ki na
 ?>
 <body>
 </body>
