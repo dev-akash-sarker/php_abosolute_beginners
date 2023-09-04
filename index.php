@@ -8,28 +8,33 @@
 <body>
 
 <?php 
-// if else true of false er upor othoba chota ba boror upore kaj kore
-$x = 5;
-if($x > 50) {
-    echo "i love you";
-} else {
-    echo "i hate you";
+//while loop
+$x = 0;
+while($x <= 5) {
+    echo "The number is: $x <br>";
+    $x++;
+
 }
 
+?>
+<?php
+// do while loop
 echo "<br>";
+// $y = 2;
+// do {
+//     echo "The number is: $y <br>";
+//     $y++;
+// } while($x <= 5);
 
-switch('green') {
-    case 'red':
-        echo 'apple is red';
-        break;
-    case 'green':
-        echo 'mango is green';
-        break;
-    default :
-    echo 'i love all friut';
-  
+// for loop
+
+// for($z = 10; $z <=50; $z++){
+//     echo "The number is: $z <br>";
+// }
+
+for($m = 10; $m <=50; $m+=5){
+    echo "The number is: $m <br>";
 }
-
 
 ?>
 
