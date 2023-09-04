@@ -7,6 +7,15 @@
 </head>
 <body>
 
+<?php 
+
+function test_name($name, $age){
+    echo "My name is: $name and his age is: $age <br>";
+}
+
+test_name("akash", 30);
+
+?>
 
 <body>
 </body>
